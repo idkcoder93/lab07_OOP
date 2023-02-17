@@ -1,14 +1,15 @@
 #pragma once
+#include"Drawable.h"
 #include <iostream>
 #include <cmath>
 #define PIE		3.14
 
 
-class Shape {
+class Shape: public Drawable {
 public:
 	virtual void draw() = 0;
 };
-class Rectangle :public Shape
+class Rectangle: public Shape
 {
 	int length;
 	int width;
@@ -57,7 +58,7 @@ public:
 
 };
 
-class Circle :public Shape
+class Circle: public Shape
 {
 	double radius;
 
