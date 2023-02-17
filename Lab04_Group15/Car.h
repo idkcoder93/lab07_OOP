@@ -1,12 +1,29 @@
 #pragma once
+#include "Drawable.h"
 #include<iostream>
 
-class Vehicles
+class Vehicles: public Drawable
 {
-	virtual void draw() = 0;
-public:
-	
 	unsigned int speed;
+public:
+	virtual void draw() = 0;
+	virtual void drive() = 0;
+	//unsigned int speed;
+
+	void setSpeed(int speed)
+	{
+		this->speed = speed;
+	}
+
+	int getSpeed()
+	{
+		return speed;
+	}
+
+	Vehicles()
+	{
+		this->speed = 0;
+	}
 };
 
 class BMW :public Vehicles
@@ -24,7 +41,7 @@ public:
 
 	void drive()
 	{
-		int speed = this->speed + 1;
+		int speed = getSpeed() + 1; // idk if this is correct please check 
 		std::cout << "The BMW is going " << speed << " kmp" << std::endl;
 	}
 };
@@ -44,7 +61,9 @@ public:
 
 	void drive()
 	{
-		int speed = this->speed + 1;
+		int speed = getSpeed() + 1; // idk if this is correct please check 
 		std::cout << "The Mazda is going " << speed << " kmp" << std::endl;
 	}
 };
+
+void DisplayDrive(Vehicles& car);

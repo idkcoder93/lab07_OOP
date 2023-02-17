@@ -7,7 +7,7 @@
 
 class Shape: public Drawable {
 public:
-	virtual void draw() = 0;
+	void draw() = 0;
 };
 class Rectangle: public Shape
 {
@@ -64,7 +64,12 @@ class Circle: public Shape
 
 public:
 
-	void setCircum(int a)
+	Circle()
+	{
+		this->radius = 0;
+	}
+
+	void SetRadius(int a)
 	{
 		radius = a;
 	}
@@ -90,3 +95,5 @@ public:
 		std::cout << "   ****" << std::endl;
 	}
 };
+
+void DisplayShape(Shape& shape);
