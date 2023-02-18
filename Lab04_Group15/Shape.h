@@ -5,12 +5,11 @@
 #define PIE		3.14
 
 
-class Shape: public Drawable {
+class Shape : public Drawable {
 public:
-	void draw() = 0;
-	virtual double getArea() = 0;
+	virtual double getArea() const = 0;
 };
-class Rectangle: public Shape
+class Rectangle : public Shape
 {
 	int length;
 	int width;
@@ -43,14 +42,13 @@ public:
 		return width;
 	}
 
-	double getArea() // calculates the area of rectangle  
-	{
-		double area = this->length * this->width;
-		return area;
+	double getArea() const override {
+		return width * length;
 	}
 
 	void draw()
 	{
+		std::cout << "\nDrawing a rectangle: " << std::endl;
 		std::cout << "**************" << std::endl;
 		std::cout << "*            *" << std::endl;
 		std::cout << "*            *" << std::endl;
@@ -59,7 +57,7 @@ public:
 
 };
 
-class Circle: public Shape
+class Circle : public Shape
 {
 	double radius;
 
@@ -80,15 +78,13 @@ public:
 		return radius;
 	}
 
-	double getArea()
-	{
-		double area;
-		area = PIE * pow(this->radius, 2);
-		return area;
+	double getArea() const override {
+		return PIE * radius * radius;
 	}
 
 	void draw()
 	{
+		std::cout << "\nDrawing a circle:  " << std::endl;
 		std::cout << "   ****" << std::endl;
 		std::cout << " *      *" << std::endl;
 		std::cout << "*        *" << std::endl;
@@ -97,5 +93,5 @@ public:
 	}
 };
 
-void DisplayShape(Shape& shape);
+void draw(Shape& shape);
 double getTotalArea(Shape** shapes, int numShapes);
