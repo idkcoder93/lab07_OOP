@@ -182,13 +182,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Car.h" />
+    <ClInclude Include="Vehicle.h" />
     <ClInclude Include="Drawable.h" />
     <ClInclude Include="Shape.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="DisplayDrawing.cpp" />
     <ClCompile Include="DisplayDrive.cpp" />
+    <ClCompile Include="getTotalArea.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

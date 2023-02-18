@@ -8,6 +8,7 @@
 class Shape: public Drawable {
 public:
 	void draw() = 0;
+	virtual double getArea() = 0;
 };
 class Rectangle: public Shape
 {
@@ -42,9 +43,9 @@ public:
 		return width;
 	}
 
-	int RectangleArea() // calculates the area of rectangle  
+	double getArea() // calculates the area of rectangle  
 	{
-		int area = length * width;
+		double area = this->length * this->width;
 		return area;
 	}
 
@@ -79,10 +80,10 @@ public:
 		return radius;
 	}
 
-	double CircleArea()
+	double getArea()
 	{
 		double area;
-		area = PIE * pow(radius, 2);
+		area = PIE * pow(this->radius, 2);
 		return area;
 	}
 
@@ -97,3 +98,4 @@ public:
 };
 
 void DisplayShape(Shape& shape);
+double getTotalArea(Shape** shapes, int numShapes);

@@ -1,6 +1,6 @@
-#include"Car.h"
+#include"Vehicle.h"
 
-void DisplayDrive(Vehicles& car)
+void DisplayDrive(Vehicle& car)
 {
 	car.drive(); // inheriting the drive function in different classe
 }

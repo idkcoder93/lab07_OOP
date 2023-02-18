@@ -2,7 +2,7 @@
 #include "Drawable.h"
 #include<iostream>
 
-class Vehicles: public Drawable
+class Vehicle: public Drawable
 {
 	unsigned int speed;
 public:
@@ -20,13 +20,13 @@ public:
 		return speed;
 	}
 
-	Vehicles()
+	Vehicle()
 	{
 		this->speed = 0;
 	}
 };
 
-class BMW :public Vehicles
+class BMW :public Vehicle
 {
 public:
 
@@ -46,7 +46,7 @@ public:
 	}
 };
 
-class Mazda :public Vehicles
+class Mazda :public Vehicle
 {
 public:
 
@@ -66,4 +66,4 @@ public:
 	}
 };
 
-void DisplayDrive(Vehicles& car);
+void DisplayDrive(Vehicle& car);
