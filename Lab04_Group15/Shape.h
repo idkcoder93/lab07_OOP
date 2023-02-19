@@ -73,7 +73,7 @@ public:
 		radius = a;
 	}
 
-	double getCircum()
+	double getRadius()
 	{
 		return radius;
 	}

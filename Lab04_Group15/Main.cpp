@@ -37,8 +37,7 @@ int main()
 	draw(circle1);
 	double circleArea = circle1.getArea();
 	std::cout << "Area of circle: " << circleArea << std::endl;
-	std::cout << "The circumference of the circle is: " << circle1.getCircum() << std::endl;
-	//std::cout << "The circumference of the circle is: " << circle2.getCircum() << std::endl;
+
 
 	//Draw rectangles and print areas
 	draw(rect1);
