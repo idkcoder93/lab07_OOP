@@ -3,6 +3,33 @@
 #include"Vehicle.h"
 #include<iostream>
 
+/// @file
+/// @brief The main.cpp file.
+///
+/// This file contains the main function, which creates Vehicle and Shape objects,
+/// draws and drives the vehicles, and prints the area of the shapes. The file includes
+/// the necessary header files and defines the main function.
+///
+/// @date 2023-03-25
+/// @author Ry Kuper
+///
+
+
+
+
+///
+/// @brief The main function.
+///
+/// This function creates some Vehicle and Shape objects, draws and drives the
+/// vehicles, and prints the area of the shapes. The function also calculates the
+/// total area of all the shapes and prints it to the console.
+///
+/// @see Vehicles, Shape, draw(), drive(), getTotalArea()
+///
+/// @date 2023-03-25
+/// @author Dominic Szymanski
+///
+
 int main()
 {
 
