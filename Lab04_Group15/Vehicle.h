@@ -29,6 +29,7 @@
 class Vehicles : public Drawable
 {
 	unsigned int speed;
+
 public:
 	virtual void drive() = 0;
 
@@ -49,5 +50,5 @@ public:
 };
 
 
-void draw(Vehicles& car);
+void draw(Drawable& item);
 void drive(Vehicles& car);

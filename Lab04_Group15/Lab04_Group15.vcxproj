@@ -32,6 +32,7 @@
     <ProjectGuid>{1769ba23-c228-4cf7-8315-a3e7a4e358b5}</ProjectGuid>
     <RootNamespace>Lab04Group15</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Lab04_Group15</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -193,9 +194,9 @@
   <ItemGroup>
     <ClCompile Include="BMW.cpp" />
     <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="DisplayDrawing.cpp" />
-    <ClCompile Include="DisplayDrive.cpp" />
-    <ClCompile Include="getTotalArea.cpp" />
+    <ClCompile Include="Draw.cpp" />
+    <ClCompile Include="Drive.cpp" />
+    <ClCompile Include="Area.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mazda.cpp" />
     <ClCompile Include="Rectangle.cpp" />

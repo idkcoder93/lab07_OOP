@@ -41,13 +41,13 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DisplayDrawing.cpp">
+    <ClCompile Include="Draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DisplayDrive.cpp">
+    <ClCompile Include="Drive.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="getTotalArea.cpp">
+    <ClCompile Include="Area.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Circle.cpp">

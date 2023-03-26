@@ -33,5 +33,5 @@ public:
 };
 
 
-void draw(Shape& shape);
+void draw(Drawable& item);
 double getTotalArea(Shape** shapes, int numShapes);
