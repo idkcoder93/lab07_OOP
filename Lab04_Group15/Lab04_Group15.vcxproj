@@ -182,15 +182,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BMW.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Mazda.h" />
+    <ClInclude Include="Rectangle.h" />
     <ClInclude Include="Vehicle.h" />
     <ClInclude Include="Drawable.h" />
     <ClInclude Include="Shape.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BMW.cpp" />
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="DisplayDrawing.cpp" />
     <ClCompile Include="DisplayDrive.cpp" />
     <ClCompile Include="getTotalArea.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mazda.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

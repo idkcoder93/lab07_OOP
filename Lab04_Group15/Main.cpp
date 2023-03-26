@@ -1,6 +1,10 @@
 #include"Drawable.h"
 #include"Shape.h"
+#include"Circle.h"
+#include"Rectangle.h"
 #include"Vehicle.h"
+#include"BMW.h"
+#include"Mazda.h"
 #include<iostream>
 
 /// @file
