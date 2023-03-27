@@ -1,4 +1,21 @@
 #include"BMW.h"
+/// @file BMW.cpp
+/// @brief The BMW class implementation file.
+///
+/// This file contains the implementation of the BMW class's draw() function.
+/// The function draws an ASCII art representation of a BMW car.
+///
+/// @date 2023-03-25
+/// @author
+
+
+///@brief Draws a BMW vehicle to the console.
+///
+///This function outputs a text - based representation of a BMW vehicle to the console.
+///It does not take any input parameters and does not return anything.
+///
+/// @date 2023-03 -25
+/// @author
 
 
 void BMW :: draw()

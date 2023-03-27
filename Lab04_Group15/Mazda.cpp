@@ -8,7 +8,11 @@
 /// @date 2023-03-25
 /// @author Dominic Szymanski
 
-
+/// @brief Draw the Mazda.
+///
+/// This function is responsible for printing the ASCII art of the Mazda to the console.
+///	@param None
+/// @return void.
 
 	void Mazda :: draw()
 	{

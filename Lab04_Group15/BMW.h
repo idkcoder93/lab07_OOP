@@ -1,3 +1,14 @@
+/// @file BMW.h
+/// @brief Contains the declaration of the BMW class, which is a concrete implementation of the Vehicles abstract class.
+///
+/// This file includes the declaration of the BMW class, which represents a BMW vehicle and overrides the abstract
+/// methods of the parent class. The BMW class is defined in this file and is derived from the Vehicles class. The draw and drive
+/// methods are also declared in this file.
+///
+/// @date 2023-03-25
+/// @author Dominic Szymanski
+///
+/// @see Vehicle.h
 #pragma once
 #include"Vehicle.h"
 

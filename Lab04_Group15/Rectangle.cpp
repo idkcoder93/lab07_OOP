@@ -1,5 +1,12 @@
 #include"Rectangle.h"
-
+/// @file Rectangle.cpp
+///
+/// Implementation file for the Rectangle class.
+/// Defines the functions for the Rectangle class, including the constructor, setters and getters for the length and width,
+/// the function to calculate the area of the rectangle, and the function to draw the rectangle.
+///
+/// @date 2023-03-25
+/// @author Dominic Szymanski
 
 
 /// @brief Default constructor for the Rectangle class
