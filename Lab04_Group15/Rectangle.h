@@ -1,19 +1,27 @@
+/// @file Rectangle.h
+/// @brief Contains the declaration of the Rectangle class.
+///
+/// @details This file includes the declaration of the Rectangle class, which is a concrete implementation of the Shape abstract class.
+/// It represents a Rectangle shape and overrides the abstract methods of the parent class.
+///
+/// @date 2023-03-28
+/// @author Ry kuper
 #pragma once
 #include"Shape.h"
 #include<iostream>
 
-/// @brief Rectangle class derived from Shape
+
+// @brief The Rectangle class.
 ///
-/// This is a concrete class derived from the Shape class  
-/// Overrides the draw function from the Drawable class. 
-/// The data members are both integer-types representing length and width of the Rectangle class. 
-/// The getters and setters functions are present for retrieving and setting members.
-/// The function getArea calculates area of a Rectangle.
-/// draw function is a derived function from Shape and is used for this class. 
-/// 
+/// This class is derived from the Shape class and implements a rectangle shape. It
+/// has member variables length and width, which are used to calculate the area of
+/// the rectangle. It also has getter and setter functions for the length and width,
+/// and overrides the getArea and draw functions from the Shape class.
+///
 /// @date 2023-03-25
-/// @author Alex Fridman
-/// 
+/// @see Shape
+/// @author DOminic Szymanski 
+
 
 class Rectangle : public Shape
 {
