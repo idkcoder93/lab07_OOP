@@ -1,3 +1,12 @@
+/// @file Circle.h
+/// @brief Contains the declaration of the Circle class.
+///
+/// This file includes the declaration of the Circle class, which inherits from the Shape class and represents a Circle shape.
+/// It has a default constructor, a method to set the radius of the circle, a method to get the radius of the circle, a method to
+/// calculate the area of the circle, and a method to draw the circle.
+///
+/// @date 2023-03-25
+/// @author Dominic Szymanski
 #pragma once
 #include"Shape.h"
 #include<iostream>
@@ -11,6 +20,7 @@
 /// a method to get the radius of the circle, a method to calculate the area
 /// of the circle, and a method to draw the circle.
 ///
+/// @see Shape
 /// @date 2023-03-25
 /// @author Dominic Szymanski
 

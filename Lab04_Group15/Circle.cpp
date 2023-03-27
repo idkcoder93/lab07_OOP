@@ -1,5 +1,12 @@
 #include "Circle.h"
-
+/// @file circle.cpp
+/// @brief Implementation of the Circle class defined in the Circle header file.
+///
+/// This file contains the implementation of the Circle class, which includes its constructors,
+/// setters, getters, area calculation method, and draw method. It also includes the necessary
+/// header files and uses the std namespace.
+/// @author Dominic Szymanski 
+/// @date 2023-03-25
 
 /// @brief Default constructor for Circle class.
 Circle :: Circle ()
