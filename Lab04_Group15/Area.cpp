@@ -26,7 +26,7 @@
 /// @see Shape
 ///
 /// @date 2023-03-25
-/// @author Alex Friedman
+/// @author Alex Fridman
 ///
 double getTotalArea(Shape** shapes, int numShapes) {
     double totalArea = 0;

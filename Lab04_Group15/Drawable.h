@@ -1,5 +1,5 @@
-/// @file
-/// @brief The Drawable class header file.
+
+/// @brief Drawable class explanation
 ///
 /// This file contains the definition of the Drawable class, which is an abstract class that provides
 /// a draw() method that must be implemented by its derived classes. This file also includes any necessary

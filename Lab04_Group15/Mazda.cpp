@@ -1,12 +1,14 @@
 #include "Mazda.h"
 
-/// @brief The Mazda class.
+/// @brief draw function for Mazda class
 ///
-/// This class is a concrete implementation of the Vehicles abstract class.
-/// It represents a Mazda vehicle and overrides the abstract methods of the parent class.
+/// This function prints the suymbol for the user-defined Mazda class.
 ///
+/// @author Rylan Kuper
+/// @param None
+/// @return void
 /// @date 2023-03-25
-/// @author Dominic Szymanski
+
 
 
 
@@ -25,9 +27,10 @@
 	///
 	/// This function prints out a message indicating that a Mazda car is being driven.
 	///
-	/// @date 2023-03-25
+	/// @author Rylan Kuper
 	/// @param None
 	/// @return void
+	/// @date 2023-03-25
 
 	void Mazda :: drive()
 	{

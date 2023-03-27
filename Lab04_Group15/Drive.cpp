@@ -26,7 +26,7 @@
 /// @author Ry Kuper
 ///
 
-// Drive function for vehicles
+
 void drive(Vehicles& car) {
     car.drive();
 }
