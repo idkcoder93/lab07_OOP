@@ -76,7 +76,6 @@ int main()
 	std::cout << "Area of rectangle: " << rectArea << std::endl;
 
 	//Get total area of shapes
-
 	Shape* shapes[] = { &rect1, &rect2, &circle1, &circle2 };
 	int numShapes = sizeof(shapes) / sizeof(shapes[0]);
 
