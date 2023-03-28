@@ -1,30 +1,29 @@
-/// @file BMW.h
-/// @brief Contains the declaration of the BMW class, which is a concrete implementation of the Vehicles abstract class.
-///
-/// This file includes the declaration of the BMW class, which represents a BMW vehicle and overrides the abstract
-/// methods of the parent class. The BMW class is defined in this file and is derived from the Vehicles class. The draw and drive
-/// methods are also declared in this file.
-///
-/// @date 2023-03-25
-/// @author Dominic Szymanski
-///
-/// @see Vehicle.h
 #pragma once
 #include"Vehicle.h"
 
+/// @file BMW.h
 /// @brief The BMW class.
 ///
 /// This class is a concrete implementation of the Vehicles abstract class.
 /// It represents a BMW vehicle and overrides the abstract methods of the parent class.
 /// This concrete class derived from Vehicle overrides the drive functrion
-/// It inherits the draw function from Drawable class and prints the corresponding symbol
+/// from Drawable class and prints the corresponding symbol
 /// 
+/// @see BMW.cpp 
 /// @date 2023-03-25
 /// @author Alex Friedman
 
 class BMW :public Vehicles
 {
 public:
+	///@brief Draws a BMW vehicle to the console.
+	///
+	///This function outputs a text - based representation of a BMW vehicle to the console.
+	///It does not take any input parameters and does not return anything.
 	void draw();
+
+	/// @brief Drive function for a BMW object.
+	///
+	/// This function prints out a message indicating that a BMW car is being driven.
 	void drive();
 };

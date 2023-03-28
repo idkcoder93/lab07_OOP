@@ -10,19 +10,6 @@
 #include"Shape.h"
 #include<iostream>
 
-
-// @brief The Rectangle class.
-///
-/// This class is derived from the Shape class and implements a rectangle shape. It
-/// has member variables length and width, which are used to calculate the area of
-/// the rectangle. It also has getter and setter functions for the length and width,
-/// and overrides the getArea and draw functions from the Shape class.
-///
-/// @date 2023-03-25
-/// @see Shape
-/// @author DOminic Szymanski 
-
-
 class Rectangle : public Shape
 {
 	int length;
@@ -30,11 +17,50 @@ class Rectangle : public Shape
 
 public:
 
-	Rectangle(); //default constructor to initialize varaibles
-	void setLength(int length); // sets the length
-	void setWidth(int width); // sets the width
-	int getLength(); // returns the length of rectangle class
-	int getWidth(); // returns the width of rectangle class
+	/// @brief default constructor to initialize data members
+	///
+	/// @detailed initializes the data members set in the Rectangle class
+	/// intiailizes the both members to zero 
+	
+	Rectangle();
+
+
+	/// @brief sets length data member of the Rectangle class
+	/// 
+	/// @param sets the length data member for Rectangle classes
+	void setLength(int length);
+
+
+	/// @brief sets the width data member of the Rectangle class
+	/// 
+	/// @param sets the width data member for Rectangle classes
+	void setWidth(int width); 
+
+
+	/// @brief retrieves length data member from Rectangle class
+	/// 
+	/// @returns length of that Rectangle class
+	int getLength();
+
+
+	/// @brief retrieves width data member from Rectangle class
+	/// 
+	/// @return width data member of Rectangle class
+	int getWidth();
+
+
+	/// @brief calculates area of the Rectangle 
+	/// 
+	/// @detailed function is from abstract clas that overrides 
+	/// and calculates the area specifically for Rectangle classes
+	/// 
+	/// @return number that represents the area 
 	double getArea() const override;
+
+
+	/// @brief std::cout a Rectangle 
+	/// 
+	/// @detailed function prints out Rectangle on console 
+	/// @see Rectangle.cpp
 	void draw();
 };
